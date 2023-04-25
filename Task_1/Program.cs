@@ -17,12 +17,12 @@ Number2 = Convert.ToInt32(Console.ReadLine());
 
 if (Number1 > Number2)
 {
-  Console.WriteLine($"Число {Number1} больше числа {Number2}");
+  Console.WriteLine($"Max = {Number1} (1-е число)");
 }
 
 else if (Number1 < Number2)
 {
-  Console.WriteLine($"Число {Number1} меньше числа {Number2}");
+  Console.WriteLine($"Max = {Number2} (2-е число)");
 }
 
 else if (Number1 == Number2)
