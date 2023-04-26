@@ -16,12 +16,23 @@ int N, F;
   Console.WriteLine();
   Console.Write("Ряд чётных чисел: ");
 
-  while (F <= N)
+  while (F <= N-2)
   {
     if (F % 2 == 0)
     {
-    Console.Write($"{F} ");
+    Console.Write($"{F}, ");
     }
   
     F++;
   }
+    
+    if (F % 2 == 0)
+    {
+      Console.Write(F);
+    }
+    
+    else if (F % 2 == 1 && N > 1)
+    {
+      F++;
+      Console.Write(F);
+    }
